@@ -13,6 +13,19 @@ Browser (React)  →  Node/Express gateway  →  Python FastAPI  →  Binance Fu
                                         pages/cli.py also calls this
                                         same components/ code directly
 ```
+<img width="712" height="586" alt="image" src="https://github.com/user-attachments/assets/8e39793c-284c-4147-8c5e-af776f4f3a02" />
+<img width="1103" height="852" alt="image" src="https://github.com/user-attachments/assets/f991d682-a81d-40e8-ac4f-51068053c1f7" />
+<img width="1111" height="265" alt="image" src="https://github.com/user-attachments/assets/4eb4133c-6c26-4b0a-acc9-6aad11faa5db" />
+<img width="1918" height="585" alt="image" src="https://github.com/user-attachments/assets/1684e15b-473e-4b2c-bed4-2532438135f6" />
+<img width="1918" height="967" alt="image" src="https://github.com/user-attachments/assets/ce7d420d-a052-41de-ab65-0cfe7469e6b7" />
+<img width="1918" height="952" alt="image" src="https://github.com/user-attachments/assets/c40a3d80-1362-4bb2-a4af-b594fbcbbe81" />
+<img width="1918" height="915" alt="image" src="https://github.com/user-attachments/assets/0ac70306-d2f4-4608-b30a-5ad19f1e66e9" />
+<img width="1913" height="521" alt="image" src="https://github.com/user-attachments/assets/332de0b1-5eec-4b2f-992a-c475862b09bf" />
+
+
+
+
+
 
 ## Why it's built this way
 
