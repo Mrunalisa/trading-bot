@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Environment Variables
+.env
+
+# Node
+node_modules/
+client/dist/
+npm-debug.log*
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
