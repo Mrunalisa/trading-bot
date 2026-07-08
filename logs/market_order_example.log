@@ -1,0 +1,4 @@
+2026-07-07 07:24:13 | INFO     | trading_bot.orders | Submitting order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-07-07 07:24:13 | INFO     | trading_bot.client | REQUEST  POST https://testnet.binancefuture.com/fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1783409053691, 'recvWindow': 5000, 'signature': '***REDACTED***'}
+2026-07-07 07:24:13 | INFO     | trading_bot.client | RESPONSE (dry-run, no network call made) | {'orderId': 2929310, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'dryrun_2929310', 'price': '0', 'avgPrice': '64980.1', 'origQty': '0.01', 'executedQty': '0.01', 'side': 'BUY', 'type': 'MARKET', 'timeInForce': 'GTC'}
+2026-07-07 07:24:13 | INFO     | trading_bot.orders | Order accepted: orderId=2929310 status=FILLED executedQty=0.01

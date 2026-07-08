@@ -1,0 +1,4 @@
+2026-07-07 07:24:13 | INFO     | trading_bot.orders | Submitting order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 68000.0, 'timeInForce': 'GTC'}
+2026-07-07 07:24:13 | INFO     | trading_bot.client | REQUEST  POST https://testnet.binancefuture.com/fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 68000.0, 'timeInForce': 'GTC', 'timestamp': 1783409053861, 'recvWindow': 5000, 'signature': '***REDACTED***'}
+2026-07-07 07:24:13 | INFO     | trading_bot.client | RESPONSE (dry-run, no network call made) | {'orderId': 1418294, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'dryrun_1418294', 'price': '68000.0', 'avgPrice': '0', 'origQty': '0.01', 'executedQty': '0', 'side': 'SELL', 'type': 'LIMIT', 'timeInForce': 'GTC'}
+2026-07-07 07:24:13 | INFO     | trading_bot.orders | Order accepted: orderId=1418294 status=NEW executedQty=0

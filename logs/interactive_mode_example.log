@@ -1,0 +1,4 @@
+2026-07-07 07:55:29 | INFO     | trading_bot.orders | Submitting order: {'symbol': 'ETHUSDT', 'side': 'SELL', 'type': 'MARKET', 'quantity': 0.05}
+2026-07-07 07:55:29 | INFO     | trading_bot.client | REQUEST  POST https://testnet.binancefuture.com/fapi/v1/order | params={'symbol': 'ETHUSDT', 'side': 'SELL', 'type': 'MARKET', 'quantity': 0.05, 'timestamp': 1783410929113, 'recvWindow': 5000, 'signature': '***REDACTED***'}
+2026-07-07 07:55:29 | INFO     | trading_bot.client | RESPONSE (dry-run, no network call made) | {'orderId': 1981800, 'symbol': 'ETHUSDT', 'status': 'FILLED', 'clientOrderId': 'dryrun_1981800', 'price': '0', 'avgPrice': '3402.13', 'origQty': '0.05', 'executedQty': '0.05', 'side': 'SELL', 'type': 'MARKET', 'timeInForce': 'GTC'}
+2026-07-07 07:55:29 | INFO     | trading_bot.orders | Order accepted: orderId=1981800 status=FILLED executedQty=0.05

@@ -1,0 +1,4 @@
+2026-07-07 07:24:14 | INFO     | trading_bot.orders | Submitting order: {'symbol': 'ETHUSDT', 'side': 'SELL', 'type': 'STOP', 'quantity': 0.5, 'price': 3300.0, 'timeInForce': 'GTC', 'stopPrice': 3350.0}
+2026-07-07 07:24:14 | INFO     | trading_bot.client | REQUEST  POST https://testnet.binancefuture.com/fapi/v1/order | params={'symbol': 'ETHUSDT', 'side': 'SELL', 'type': 'STOP', 'quantity': 0.5, 'price': 3300.0, 'timeInForce': 'GTC', 'stopPrice': 3350.0, 'timestamp': 1783409054029, 'recvWindow': 5000, 'signature': '***REDACTED***'}
+2026-07-07 07:24:14 | INFO     | trading_bot.client | RESPONSE (dry-run, no network call made) | {'orderId': 4257605, 'symbol': 'ETHUSDT', 'status': 'NEW', 'clientOrderId': 'dryrun_4257605', 'price': '3300.0', 'avgPrice': '0', 'origQty': '0.5', 'executedQty': '0', 'side': 'SELL', 'type': 'STOP', 'timeInForce': 'GTC'}
+2026-07-07 07:24:14 | INFO     | trading_bot.orders | Order accepted: orderId=4257605 status=NEW executedQty=0
